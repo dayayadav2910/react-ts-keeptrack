@@ -1,0 +1,24 @@
+form {
+  min-width: 300px;
+}
+
+html,
+body,
+#root,
+.container,
+.center-page {
+  height: 100%;
+}
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 1rem;
+}
+
+a.button.active {
+  border: 1px solid var(--fore-color);
+}
+
